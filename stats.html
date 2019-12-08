@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="turbolinks-cache-control" content="no-cache"><!--This is for preventing functions from running twice. Turbolinks caches the page and it runs a preview before it loads the actual page.-->
+  </head>
+  <body>
+    <button onclick="Turbolinks.visit('index2.html');">Back</button>
+    <h1 style="font-size: 60px;">Stats:</h1>
+    <br>
+    <p id="moneyStat" class="stats"></p>
+    <br>
+    <p id="assetWorth" class="stats"></p>
+    <br>
+    <p id="netWorth" class="stats"></p>
+    <br>
+    <p id="profit" class="stats"></p>
+    <br>
+    <p id="averageMoneyPerDay" class="stats"></p>
+    <script>type="stats"; changeStats(); changeMoney = false;</script>
+  </body>
+</html>

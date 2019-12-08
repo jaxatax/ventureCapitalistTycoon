@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="turbolinks-cache-control" content="no-cache"><!--This is for preventing functions from running twice. Turbolinks caches the page and it runs a preview before it loads the actual page.-->
+  </head>
+  <body>
+    <button onclick="Turbolinks.visit('index2.html');">Back</button>
+    <h1>Investments:</h1>
+    <br>
+    <div id="tech">
+      <h2>Tech</h2>
+      <p id="techInvestments" class="investments"></p>
+    </div>
+    <div id="food">
+      <h2>Restaurants</h2>
+      <p id="foodInvestments" class="investments"></p>
+    </div>
+    <div id="crypto">
+      <h2>Cryptocurrencies</h2>
+      <p id="cryptoInvestments" class="investments"></p>
+    </div>
+    <div id="dotcom">
+      <h2>Websites</h2>
+      <p id="dotcomInvestments" class="investments"></p>
+    </div>
+    <div id="retail">
+      <h2>Retail</h2>
+      <p id="retailInvestments" class="investments"></p>
+    </div>
+    <script>type = "investments"; displayInvestments();</script>
+  </body>
+</html>

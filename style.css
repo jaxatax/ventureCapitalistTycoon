@@ -1,0 +1,77 @@
+#money{
+  color: #033f63;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  float: right;
+}
+
+#day{
+  color: #033f63;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  float: left;
+}
+
+body {
+  background-color: #60b2e5;
+}
+
+h1 {
+  color: #3070d0;
+  font-family: Cambria, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+h2 {
+  color: #3070d0;
+  font-family: Cambria, Times, 'Times New Roman', serif;
+}
+
+button {
+  color: #a7cced;
+  background-color: #545e75;
+  border-color: #304d6d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.companySelect {
+  width: 300px;
+  height: 70px;
+  font-size: 20px;
+}
+
+.company {
+  width: 300px;
+  height: 35px;
+}
+
+.bottomButton {
+  width: 200px;
+  height: 35px;
+}
+
+.specialCompany {
+  width: 700px;
+  height: 150px;
+  font-size: 30px;
+}
+
+.description {
+  font-size: 18px;
+  color: #3070d0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.investments {
+  color: #2060d0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stats {
+  font-size: 30px;
+  color: #3070d0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}

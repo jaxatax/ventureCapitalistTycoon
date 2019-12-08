@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <p><span id="day">Day: 1</span><span id="money"></span></p>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;">
+      <button onclick="Turbolinks.visit('tech.html'); changeMoney=false;" class="companySelect">Tech</button>
+      <button onclick="Turbolinks.visit('restaurants.html'); changeMoney=false;" class="companySelect">Restaurants</button>
+      <button onclick="Turbolinks.visit('cryptocurrencies.html'); changeMoney=false;" class="companySelect">Cryptocurrencies</button>
+      <br>
+      <br>
+      <button onclick="Turbolinks.visit('dotcom.html'); changeMoney=false;" class="companySelect">Websites</button>
+      <button onclick="Turbolinks.visit('retail.html'); changeMoney=false;" class="companySelect">Retail</button>
+      <button onclick="Turbolinks.visit('special.html'); changeMoney=false;" class="companySelect">Special</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;">
+      <button onclick="toggleDays();" id="daysButton" class="bottomButton">Time Progress: False</button>
+      <br>
+      <button onclick="Turbolinks.visit('investments.html'); changeMoney=false;" class="bottomButton">Investments</button>
+      <br>
+      <button onclick="Turbolinks.visit('stats.html');" class="bottomButton">Stats</button>
+    </div>
+    <script>
+      document.getElementById("money").innerHTML = "Money: $" + localStorage.money;
+      changeMoney = true;
+      document.getElementById("daysButton").innerHTML = "Time Progress: " + advanceDays.toString().cap();
+      type = "index2";
+      document.getElementById("day").innerHTML = "Day: " + day;
+    </script>
+  </body>
+</html>
